@@ -14,6 +14,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 .container{
@@ -22,3 +24,64 @@
 .section-margin{
     margin-top: 250px;
 }
+
+/* navbar start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .container{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar .menu-wrapper .menu{
+    margin: auto;
+}
+
+.navbar .logo{
+    font-family: var(--heading-font);
+    font-weight: 800;
+    font-size: 30px;
+    color: #1E6F5C;
+}
+.navbar .logo span{
+    font-family: var(--heading-font);
+    font-weight: 800;
+    font-size: 30px;
+    color:var(--heading-color);
+}
+.navbar .menu a{
+    font-family: var(--heading-font);
+    font-size: 18px;
+    font-weight: 400;
+    color:#1E1B1B99;
+    margin: 0 20px;
+}
+.navbar .menu a.active{
+    color: var(--primary-color);
+    font-weight: 800;
+
+}
+.navbar .icons i{
+    font-size: 25px;
+
+}
+.navbar .icons .icon{
+    margin-right: 20px;
+    color: var(--primary-color);
+}
+/* navbar end */
