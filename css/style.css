@@ -1,0 +1,24 @@
+:root{
+    /* color */
+    --primary-color:#1E6F5C;
+    --btn-color:#E6DD3B;
+    --heading-color:#ECE7B4;
+
+    /* font */
+    --heading-font:'Montserrat', sans-serif;
+    --main-font:'Roboto', sans-serif;
+}
+
+*{
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1420px;
+}
+.section-margin{
+    margin-top: 250px;
+}
