@@ -88,10 +88,19 @@
     font-size: 40px;
     color: #1E6F5C;
 }
+.menuOpen .menuClose{
+    display: none;
+}
 /* navbar end */
 
 /* responsive */
 @media screen and (max-width: 768px){
+    .navbar .container{
+        padding: 0 15px;
+    }
+    .menuOpen .menuClose{
+        display: initial;
+    }
     .navbar .menu-wrapper{
         position: fixed;
         top: 0;

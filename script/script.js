@@ -6,4 +6,10 @@ $(document).ready(()=>{
     $('.menuClose').click(()=>{
         $('.menu-wrapper').removeClass('active')
     })
-})
+});
+
+var swiper = new Swiper(".mySwiper", {
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    });
