@@ -8,8 +8,13 @@ $(document).ready(()=>{
     })
 });
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiperHome", {
+    slidesPerView : "auto",
+    conteredSlides: true,
     pagination: {
         el: ".swiper-pagination",
     },
-    });
+    autoplay:{
+        delay: 2000
+    }
+});
