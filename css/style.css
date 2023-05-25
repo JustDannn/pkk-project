@@ -212,7 +212,55 @@
         font-size: 40px;
         color:#E6DD3B;
     }
+    .home{
+        padding: 0 20px;
+    }
     .navbar .menu a.active{
-        color: #E6DD3B;
+        color: hsl(57, 77%, 57%);
+    }
+    .home .container{
+        flex-direction: column;
+    }
+    .home .heading{
+        font-size: 46px;
+    }
+    .home .sub-heading{
+        font-size: 18px;
+    }
+    .swiper img{
+        margin-top: 100px;
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .home .container{
+        margin-top: 150px;
+        padding: 40px 30px;
+    }
+    .home .heading{
+        font-size: 30px;
+    }
+    .home .sub-heading{
+        font-size: 12px;
+        width: 250px;
+    }
+    .home .btn-home{
+        margin-top: 80px;
+    }
+    .btn-home .btn-explore{
+        font-size: 12px;
+        padding: 14px 16px;
+    }
+    .btn-home .btn-learn{
+        font-size: 12px;
+        padding: 16px 24px;
+        margin-left: 20px;
+    }
+    .swiper img{
+        margin-top: 100px;
+        max-width: 200px;
+        width: 100%;
     }
 }
