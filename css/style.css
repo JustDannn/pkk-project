@@ -217,7 +217,6 @@
 /* service start */
 .service{
     margin-top: 250px;
-
 }
 .service .container{
     margin: auto;
@@ -347,6 +346,16 @@
     }
     .item .icon i{
         font-size: 40px;
+    }
+    .service, .panel{
+        margin-top: 250px;
+    }
+    .service .title{
+        font-size: 26px;
+    }
+    .service .row2{
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
