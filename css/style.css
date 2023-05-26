@@ -248,10 +248,7 @@
 .row2 .img-box{
     position: relative;
 }
-.row2 .img-box:hover .detail{
-    clip-path: circle(141.2% at 100% 0);
-    transition: 0.3s ease-in-out;
-}
+
 .row2 .detail{
     display: flex;
     align-items: center;
@@ -267,6 +264,11 @@
     clip-path: circle(0.8% at 100% 0);
     transition: 0.3s ease-in-out;
 }
+.row2 .img-box:hover .detail{
+    clip-path: circle(141.2% at 100% 0);
+    transition: 0.3s ease-in-out;
+}
+
 .row2 .detail a{
     font-family: var(--heading-font);
     font-weight: 800;
