@@ -563,6 +563,20 @@
     .product .container .row1 .heading{
         font-size: 16px;
     }
+    .contact .container{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .contact .heading{
+        font-size: 26px;
+    }
+    .contact .thumnail-contact{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .contact .form-group{
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -599,5 +613,18 @@
     }
     .banner .container{
         padding: 0 20px;
+    }
+    .contact .label{
+        font-size: 16px;
+    }
+    .contact .heading{
+        font-size: 20px;
+    }
+    .contact .content-right input, .contact .content-right textarea{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .contact .content-right{
+        width: 100%;
     }
 }
