@@ -22,3 +22,22 @@ var swiper = new Swiper(".mySwiperHome", {
         delay: 2000
     }
 });
+
+var swiper = new Swiper(".mySwiperProduct", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    navigation: {
+    nextEl: ".bxs-chevron-right-circle",
+    prevEl: ".bxs-chevron-left-circle",
+    },
+    breakpoints:{
+        576:{
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768:{
+            slidesPerView: 2,
+            spaceBetween: 20,
+        }
+    }
+});

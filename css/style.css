@@ -302,6 +302,155 @@
 .banner-left .img-box img, .banner-right .img-box img{
     width: 100%;
 }
+
+.product{
+    margin-top: 250px;
+}
+.product .container{
+    margin: auto;
+}
+.product .container .row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product .row1 .label{
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.product .row1 .heading{
+    font-family: var(--heading-font);
+    font-size: 30px;
+    font-weight: 600;
+    color: #2E2828;
+    margin-top: 15px;
+    max-width: 735px;
+}
+.product .btn-slider{
+    color: var(--btn-color);
+    font-size: 60px;
+}
+.product .btn-slider i{
+    cursor: pointer;
+}
+.product .row2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.product .card-product{
+    position: relative;
+    margin: 0 24px;
+    max-width: 335px;
+    background: #1E6F5C;
+    box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 50px 10px;
+    padding: 35px 25px;
+}
+ .card-product img{
+    margin: auto;
+    display: block;
+ }
+.card-product .card-body{
+    margin-top: 50px;
+}
+.card-product .product-name{
+    font-family: var(--heading-color);
+    font-weight: 600;
+    font-size: 20px;
+    color: #ECE7B4;
+}
+.card-product .star{
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--btn-color);
+}
+.card-product .stock{
+    color: #ffff;
+    margin-top: 5px;
+}
+.card-product .price{
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.card-product .btn-card{
+    background-color: var(--btn-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 28px;
+    background: #E6DD3B;
+    border-radius: 30px 0px 50px;
+}
+.card-product .btn-card i{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.card-product .btn-card:hover{
+    background-color: #e2e2e2;
+}
+.contact .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .content-left .label{
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.contact .content-left .heading{
+    font-family: var(--heading-font);
+    font-size: 30px;
+    font-weight: 600;
+    color: #2E2828;
+    margin-top: 15px;
+    max-width: 735px;
+}
+.contact .thumnail-contact{
+    margin-top: 50px;
+    max-width: 600px;
+    max-height: 410px;
+}
+.contact .thumnail-contact .img-contact{
+    width: 100%;
+    height: 100%;
+}
+.contact .content-right .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.contact .content-right input, .contact .content-right textarea{
+    width: 700px;
+    padding: 20px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.contact .content-right input::placeholder, .contact .content-right textarea::placeholder{
+    color: #e2e2e2;
+}
+.contact .btn-contact{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: var(--btn-color);
+    color: #1E6F5C;
+    border: none;
+    font-size: 18px;
+}
+.contact .btn-contact:hover{
+    border: 1px solid var(--btn-color);
+    color: var(--btn-color);
+    background-color: #fff;
+    cursor: pointer;
+}
 /* responsive */
 @media screen and (max-width: 768px){
     .navbar .container{
@@ -390,6 +539,29 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .product .container{
+        padding: 0 20px;
+    }
+    .product .container .row1{
+        flex-wrap: wrap;
+    }
+    .product .btn-slider{
+        margin-left: auto;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .card-product .card-product-img{
+        max-width: 200px;
+    }
+    .product .row2{
+        margin-top: 80px;
+    }
+    .product .container .row1 .label{
+        font-size: 12px;
+    }
+    .product .container .row1 .heading{
+        font-size: 16px;
     }
 }
 
