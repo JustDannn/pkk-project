@@ -2,7 +2,7 @@
     /* color */
     --primary-color:#1E6F5C;
     --btn-color:#E6DD3B;
-    --heading-color:#ECE7B4;
+    --heading-color:#e8e198;
 
     /* font */
     --heading-font:'Montserrat', sans-serif;
@@ -62,7 +62,7 @@
     font-family: var(--heading-font);
     font-weight: 800;
     font-size: 30px;
-    color: #1E6F5C;
+    color: var(--primary-color);
 }
 .navbar .logo span{
     font-family: var(--heading-font);
@@ -92,7 +92,7 @@
 }
 .navbar .menuOpen{
     font-size: 40px;
-    color: #1E6F5C;
+    color: var(--primary-color);
 }
 .menuOpen .menuClose{
     display: none;
@@ -102,7 +102,7 @@
 /* home start */
 
 .home .container{
-    background-color: #1E6F5C;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;    
@@ -174,7 +174,7 @@
     opacity: 1;
 }
 .swiper-pagination-bullet-active{
-    background-color: #E6DD3B;
+    background-color: var(--btn-color);
 }
 /* home end */
 
@@ -277,7 +277,7 @@
     font-family: var(--heading-font);
     font-weight: 800;
     font-size: 25px;
-    color: #ECE7B4;
+    color: var(--heading-color);
 }
 
 .banner{
@@ -343,7 +343,7 @@
     position: relative;
     margin: 0 24px;
     max-width: 335px;
-    background: #1E6F5C;
+    background: var(--primary-color);
     box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.25);
     border-radius: 50px 10px;
     padding: 35px 25px;
@@ -359,7 +359,7 @@
     font-family: var(--heading-color);
     font-weight: 600;
     font-size: 20px;
-    color: #ECE7B4;
+    color: var(--heading-color);
 }
 .card-product .star{
     margin-top: 10px;
@@ -383,7 +383,7 @@
     right: 0;
     bottom: 0;
     padding: 28px;
-    background: #E6DD3B;
+    background: var(--btn-color);
     border-radius: 30px 0px 50px;
 }
 .card-product .btn-card i{
@@ -441,7 +441,7 @@
     padding: 20px 40px;
     border-radius: 10px;
     background-color: var(--btn-color);
-    color: #1E6F5C;
+    color: var(--primary-color);
     border: none;
     font-size: 18px;
 }
@@ -551,7 +551,7 @@
         transition: .3s ease-in-out;
     }
     .navbar .icons i{
-        color:#E6DD3B !important;
+        color:var(--btn-color) !important;
     }
     .navbar .menu a{
         display: block;
