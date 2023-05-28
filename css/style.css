@@ -451,6 +451,80 @@
     background-color: #fff;
     cursor: pointer;
 }
+.footer{
+    margin-top: 146px;
+    background: var(--primary-color);
+    border-radius: 50px 50px 0px 0px;
+}
+.footer .container{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.footer .container .row1{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .content-right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .content-left .logo{
+    font-family: var(--heading-font);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+.footer .content-left .logo span{
+    font-family: var(--heading-font);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--btn-color);
+}
+.footer .content-left .email{
+    font-family: var(--main-font);
+    color: #FFFFFF;
+    margin-top: 30px;
+    display: block;
+}
+.footer .content-left .phone{
+    font-family: var(--main-font);
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.footer .icons{
+    margin-top: 50px;
+}
+.footer .icons i{
+    font-size: 45px;
+    color: var(--btn-color);
+}
+.footer .content-right > div{
+    margin: 0 50px;
+}
+.footer .content-right .col4{
+    width: 200px;
+}
+.footer .content-right h3{
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--heading-color);
+}
+.footer .content-right li{
+    margin-bottom: 20px;
+    font-family: var(--heading-color);
+    color: #ffff;
+}
+.footer .content-right .address{
+    margin-bottom: 20px;
+    font-family: var(--heading-color);
+    color: #ffff;
+}
+.footer .row2{
+    text-align: center;
+    color: #FFFFFF;
+}
 /* responsive */
 @media screen and (max-width: 768px){
     .navbar .container{
